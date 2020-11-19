@@ -1,0 +1,70 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: beige;
+}
+
+a {
+  color: maroon;
+  font-weight: 700;
+}
+
+#cancel {
+  color: black;
+  margin-left: 13px;
+  font-weight: 700;
+}
+
+ul {
+  list-style: none;
+}
+
+ul li {
+  margin-bottom: 20px;
+  box-shadow: 0 3px 7px maroon;
+  padding: 10px;
+  border-radius: 5px;
+  width: 500px;
+  transition: 0.2s ease;
+  position: relative;
+  left: 0;
+  font-size: 1em;
+}
+
+ul li:hover {
+  left: 5px;
+}
+
+
+.card {
+  padding: 10px;
+  width: 450px;
+}
+
+.message * {
+  vertical-align: middle;
+}
+
+input,
+textarea {
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: 1px solid #dbdbdb;
+  width: 360px;
+  margin-bottom: 15px;
+  transition: 0.2s ease;
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+  box-shadow: 0px 2px 5px maroon;
+}
+
+button {
+  margin-left: 13px;
+  background-color: maroon;
+  border: none;
+  color: white;
+  height: 30px;
+}
